@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+  }
+
+
+  .navbar img {
+    width: 60px;
+    height: 60px;
+  }
+  
+
+  .top-container {
+    background-image: url("https://j.gifs.com/xnjEvE.gif");
+    height: 103vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top-container h1 {
+    color: white;
+    font-size: 65px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 2px;
+  }
+
+
+  .navbar {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+  }
+  
+  .navbar ul li a:hover {
+    color: #947883;
+  }
+  
+  .navbar.active {
+    background-color: black;
+  }
+  
+  .navbar.active ul li a {
+    color: white;
+  }
+
+
+  .social-icons{
+    position: absolute;
+    right: 50px;
+    bottom: 2%; 
+}
+
+.social-icons ul li{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.social-icons ul li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover{
+    background: #947883;
+    color: #fff;
+}
+
+
+  .skills-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-family: cursive;
+  }
+
+  .skills-container {
+    display: inline-block;
+    width:45%; 
+    box-sizing: border-box; 
+    vertical-align: top; 
+    margin-right: 20px; 
+  }
+
+
+
+
+  .text {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+    margin: 50px 5%;
+  }
